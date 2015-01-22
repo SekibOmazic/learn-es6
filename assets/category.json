@@ -1,0 +1,6 @@
+{
+  "id": 98765,
+  "name": "Books",
+  "description": "Cool Books for smart people",
+  "items": [{"id": 1, "name": "JS for Dummies"}, {"id": 2, "name": "JavaScript Allonge"}]
+}

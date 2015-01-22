@@ -1,0 +1,22 @@
+{
+  "name": "m2",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "traceur": "0.0.79",
+    "traceur-runtime": "*",
+    "jasmine": "~2.0.0",
+    "system.js": "0.11.0"
+  }
+}

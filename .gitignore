@@ -1,0 +1,7 @@
+dist
+dist.js
+es5
+app
+node_modules
+bower_components
+.idea

@@ -1,0 +1,26 @@
+{
+  "name": "learn-es6",
+  "version": "0.0.1",
+  "dependencies": {
+    "del": "*",
+    "run-sequence": "*",
+    "gulp": "^3.8.10",
+    "gulp-jasmine": "^1.0.1",
+    "gulp-shell": "^0.2.10",
+    "gulp-watch": "^2.0.0",
+    "minijasminenode": "^1.1.1",
+    "gulp-sourcemaps": "~1.2.8",
+    "gulp-6to5": "~1.0.2",
+    "6to5": "~1.15.0",
+    "gulp-traceur": "^0.15.0",
+    "traceur": "0.0.79"
+  },
+  "scripts": {
+    "test": "node --harmony node_modules/gulp/bin/gulp.js 6to5 && gulp jasmine"
+  },
+  "devDependencies": {
+    "gulp-shell": "^0.2.11",
+    "gulp-traceur-cmdline": "^1.1.2",
+    "gulp-traceur-compiler": "^1.1.4"
+  }
+}
